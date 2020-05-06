@@ -20,7 +20,9 @@
     "gatsby-plugin-react-helmet": "^3.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "typeface-barlow": "^0.0.71",
+    "typeface-barlow-condensed": "^0.0.71"
   },
   "devDependencies": {
     "prettier": "^2.0.5",

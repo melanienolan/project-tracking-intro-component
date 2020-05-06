@@ -11105,6 +11105,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-barlow-condensed@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-barlow-condensed/-/typeface-barlow-condensed-0.0.71.tgz#7f78946ecd483cb2db5e3f9c2514a37d255ef667"
+  integrity sha512-0dKb79eoD462P40ec3C8sRkfzfMMDUrWIanR4A5+KDLGrjegspQFts/KYWPQCUHZVuBlZPD81q3wstNnc7I6Hg==
+
+typeface-barlow@^0.0.71:
+  version "0.0.71"
+  resolved "https://registry.yarnpkg.com/typeface-barlow/-/typeface-barlow-0.0.71.tgz#047396d800e19b33904ff820aec9e73d6f0c8e0d"
+  integrity sha512-dsDw7lOtAXUSe2kj6s9M2DVS5QMeIw+pOwd/Y3cgaMeB77mIIqWJOFIzEVqCGhrIDUpFbOCeo0kZxqGDZXM+sQ==
+
 unc-path-regex@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
