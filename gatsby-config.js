@@ -18,8 +18,8 @@ module.exports = {
         short_name: "Gatsby Starter Tailwind CSS",
         start_url: "/",
         background_color: theme.colors.white,
-        theme_color: theme.colors.teal[500],
-        icon: "static/favicon.svg",
+        theme_color: theme.colors.primary,
+        icon: "static/favicon.png",
       },
     },
     {
