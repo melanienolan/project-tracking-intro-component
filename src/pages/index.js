@@ -6,6 +6,7 @@ import devicesImage from "../images/devices-image.svg"
 export default () => {
   return (
     <Layout>
+      <div className="absolute top-0 right-0 w-1/2 bg-neutral-100 decoration"></div>
       <header className="flex justify-between px-8 py-10">
         <div>
           <img className="h-6" src={logo} alt="Logo" />
@@ -25,6 +26,28 @@ export default () => {
           </svg>
         </button>
       </header>
+      <nav className="flex flex-col items-center p-4 w-full absolute top-0 left-0 font-condensed font-bold text-neutral-300 bg-white shadow rounded list-none uppercase">
+        <li className="block w-full mt-5 text-center">
+          <a href="#" className="">
+            Product
+          </a>
+        </li>
+        <li className="block w-full mt-5 text-center">
+          <a href="#" className="">
+            Features
+          </a>
+        </li>
+        <li className="block w-full mt-5 text-center">
+          <a href="#" className="">
+            Pricing
+          </a>
+        </li>
+        <li className="block w-full mt-3 pt-2 text-center text-neutral-400 border-t">
+          <a href="#" className="">
+            Login
+          </a>
+        </li>
+      </nav>
       <main className="">
         <div className="">
           <img
