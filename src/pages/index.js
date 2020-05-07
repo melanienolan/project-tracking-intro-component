@@ -106,7 +106,7 @@ export default () => {
       <main className="sm:mt-16 sm:flex sm:flex-row-reverse">
         <div className="sm:w-1/2">
           <img
-            className="ml-2 h-64 sm:h-full object-cover object-left"
+            className="ml-2 h-64 object-cover object-left sm:h-full"
             src={devicesImage}
             alt="mobile and desktop devices"
           />
@@ -118,7 +118,7 @@ export default () => {
             </span>{" "}
             Monograph Dashboard
           </p>
-          <h1 className="mt-4 font-condensed font-bold text-neutral-300 text-h1 leading-none uppercase text-4xxl sm:text-6xl">
+          <h1 className="mt-4 font-condensed font-bold text-neutral-300 text-h1 leading-none uppercase text-4xxl max-w-xs sm:max-w-none sm:text-6xl">
             Powerful Insights into your Team
           </h1>
           <p className="mt-3 font-barlow text-lg text-neutral-400 sm:mt-8">
