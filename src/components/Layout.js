@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <SEO />
-      {children}
+      <div className="container mx-auto h-screen">{children}</div>
     </>
   )
 }
