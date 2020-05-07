@@ -16,6 +16,13 @@ module.exports = {
         barlow: ["Barlow", "sans-serif"],
         condensed: ["Barlow Condensed", "sans-serif"],
       },
+      fontSize: {
+        "4xxl": "2.5rem",
+      },
+      letterSpacing: {
+        wide: "0.17em",
+        widest: "0.28em",
+      },
     },
   },
   variants: {},
