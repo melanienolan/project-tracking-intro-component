@@ -8,16 +8,8 @@ export default () => {
 
   return (
     <Layout>
-      <div
-        className="absolute top-0 right-0 w-1/2 bg-neutral-100"
-        style={{
-          height: "45vh",
-          borderBottomLeftRadius: "6rem",
-          zIndex: "-1",
-        }}
-      ></div>
-      <header className="sm:flex sm:justify-between">
-        <div className="flex justify-between px-8 py-10 sm:block sm:py-16 sm:px-20">
+      <header className="px-8 py-10 sm:flex sm:justify-between">
+        <div className="flex justify-between">
           <div>
             <img className="h-6 sm:h-8" src={logo} alt="Logo" />
           </div>
@@ -77,9 +69,9 @@ export default () => {
             </li>
           </ul>
         </nav>
-        <nav className="hidden px-8 py-16 sm:block font-condensed font-bold text-neutral-300 list-none uppercase sm:pr-20">
+        <nav className="hidden sm:flex sm:items-center font-condensed font-bold text-neutral-300 list-none uppercase">
           <ul className="sm:flex sm:justify-between">
-            <li className="px-5">
+            <li className="pr-5">
               <a href="#" className="">
                 Product
               </a>
@@ -95,7 +87,7 @@ export default () => {
               </a>
             </li>
             <li className="px-5 text-neutral-400">&bull;</li>
-            <li className="px-5 text-neutral-400">
+            <li className="pl-5 text-neutral-400">
               <a href="#" className="">
                 Login
               </a>
@@ -106,12 +98,12 @@ export default () => {
       <main className="sm:mt-16 sm:flex sm:flex-row-reverse">
         <div className="sm:w-1/2">
           <img
-            className="ml-2 h-64 object-cover object-left sm:h-full"
+            className="ml-2 h-64 object-cover object-left max-w-none sm:h-50 md-70"
             src={devicesImage}
             alt="mobile and desktop devices"
           />
         </div>
-        <div className="mt-24 ml-8 sm:w-1/2 sm:pl-12 sm:mt-8">
+        <div className="mt-24 ml-8 sm:w-1/2 sm:mt-8">
           <p className="font-condensed tracking-widest text-neutral-400 uppercase">
             <span className="mr-2 px-3 py-1 bg-neutral-300 text-white rounded-full tracking-normal">
               NEW
@@ -125,7 +117,7 @@ export default () => {
             Project planning and time tracking <br />
             for agile teams
           </p>
-          <div class="mt-6 sm:mt-16">
+          <div className="mt-6 sm:mt-16">
             <button
               type="button"
               className="px-6 py-2 border bg-primary text-white font-condensed text-base font-semibold rounded uppercase sm:px-10 sm:py-3"
