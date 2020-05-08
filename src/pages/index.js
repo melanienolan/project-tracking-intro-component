@@ -1,100 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import Layout from "../components/Layout.js"
-import logo from "../images/logo.svg"
 import devicesImage from "../images/devices-image.svg"
 
 export default () => {
-  const [open, setOpen] = useState(false)
-
   return (
     <Layout>
-      <header className="px-8 py-10 sm:flex sm:justify-between">
-        <div className="flex justify-between">
-          <div>
-            <img className="h-6 sm:h-8" src={logo} alt="Logo" />
-          </div>
-
-          <button
-            onClick={() => setOpen(!open)}
-            className="text-neutral-300 sm:hidden"
-            type="button"
-          >
-            <svg
-              className="w-6 h-6 fill-current"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {open ? (
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M21.334.97l1.696 1.696L13.697 12l9.333 9.334-1.696 1.696L12 13.697 2.666 23.03.97 21.334 10.303 12 .97 2.666 2.666.97 12 10.303 21.334.97z"
-                />
-              ) : (
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M0 0H24V2H0V0ZM0 7H24V9H0V7ZM0 14H24V16H0V14Z"
-                />
-              )}
-            </svg>
-          </button>
-        </div>
-        <nav
-          className={`${
-            open ? "flex" : "hidden"
-          } flex-col items-center p-4 absolute font-condensed font-bold text-neutral-300 bg-white shadow-xl rounded list-none uppercase sm:hidden`}
-          style={{ left: "2rem", right: "2rem" }}
-        >
-          <ul>
-            <li className="block w-full mt-5 text-center">
-              <a href="#" className="">
-                Product
-              </a>
-            </li>
-            <li className="block w-full mt-5 text-center">
-              <a href="#" className="">
-                Features
-              </a>
-            </li>
-            <li className="block w-full mt-5 text-center">
-              <a href="#" className="">
-                Pricing
-              </a>
-            </li>
-            <li className="block w-full mt-3 pt-2 text-center text-neutral-400 border-t">
-              <a href="#" className="">
-                Login
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <nav className="hidden sm:flex sm:items-center font-condensed font-bold text-neutral-300 list-none uppercase">
-          <ul className="sm:flex sm:justify-between">
-            <li className="pr-5">
-              <a href="#" className="">
-                Product
-              </a>
-            </li>
-            <li className="px-5">
-              <a href="#" className="">
-                Features
-              </a>
-            </li>
-            <li className="px-5">
-              <a href="#" className="">
-                Pricing
-              </a>
-            </li>
-            <li className="px-5 text-neutral-400">&bull;</li>
-            <li className="pl-5 text-neutral-400">
-              <a href="#" className="">
-                Login
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
       <main className="sm:mt-16 sm:flex sm:flex-row-reverse">
         <div className="sm:w-1/2">
           <img
