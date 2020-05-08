@@ -27,6 +27,9 @@ module.exports = {
         "50": "50%",
         "70": "70%",
       },
+      inset: {
+        "2": "2rem",
+      },
     },
   },
   variants: {},
