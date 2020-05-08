@@ -39,10 +39,7 @@ const Header = () => {
         </button>
       </div>
       {isOpen && (
-        <nav
-          className="p-4 absolute font-condensed font-bold text-neutral-300 bg-white shadow-xl rounded uppercase sm:hidden"
-          style={{ left: "2rem", right: "2rem" }}
-        >
+        <nav className="p-4 absolute inset-x-2 font-condensed font-bold text-neutral-300 bg-white shadow-xl rounded uppercase sm:hidden">
           <ul className="flex flex-col list-none text-center">
             <li className="mt-5">
               <Link to="/product" className="">
