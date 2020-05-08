@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "hsl(0, 100%, 68%)",
+        light: "hsl(0, 97%, 76%)",
         neutral: {
           "100": "hsl(207, 33%, 95%)",
           "200": "hsl(230, 11%, 40%)",
