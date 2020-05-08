@@ -23,6 +23,10 @@ module.exports = {
         wide: "0.17em",
         widest: "0.28em",
       },
+      spacing: {
+        "50": "50%",
+        "70": "70%",
+      },
     },
   },
   variants: {},
