@@ -30,7 +30,7 @@ export default () => {
           <div className="mt-6 sm:mt-16">
             <button
               type="button"
-              className="px-6 py-2 border bg-primary text-white font-condensed text-base font-semibold rounded uppercase sm:px-10 sm:py-3"
+              className="px-6 py-2 border bg-primary hover:bg-light text-white font-condensed text-base font-semibold rounded uppercase sm:px-10 sm:py-3"
             >
               Schedule a demo
             </button>

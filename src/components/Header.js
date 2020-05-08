@@ -41,22 +41,22 @@ const Header = () => {
       {isOpen && (
         <nav className="p-4 absolute inset-x-2 font-condensed font-bold text-neutral-300 bg-white shadow-xl rounded uppercase sm:hidden">
           <ul className="flex flex-col list-none text-center">
-            <li className="mt-5">
+            <li className="mt-5 hover:underline">
               <Link to="/product" className="">
                 Product
               </Link>
             </li>
-            <li className="mt-5">
+            <li className="mt-5 hover:underline">
               <Link to="/features" className="">
                 Features
               </Link>
             </li>
-            <li className="mt-5">
+            <li className="mt-5 hover:underline">
               <Link to="/pricing" className="">
                 Pricing
               </Link>
             </li>
-            <li className="mt-3 pt-2 text-neutral-400 border-t">
+            <li className="mt-3 pt-2 text-neutral-400 border-t hover:underline">
               <Link to="/login" className="">
                 Login
               </Link>
@@ -67,23 +67,23 @@ const Header = () => {
 
       <nav className="hidden sm:block font-condensed font-bold text-neutral-300 uppercase">
         <ul className="list-none sm:flex sm:justify-between sm:items-center">
-          <li className="mr-5">
+          <li className="mr-5 hover:underline">
             <Link to="/product" className="">
               Product
             </Link>
           </li>
-          <li className="mx-5">
+          <li className="mx-5 hover:underline">
             <Link to="/features" className="">
               Features
             </Link>
           </li>
-          <li className="mx-5">
+          <li className="mx-5 hover:underline">
             <Link to="/pricing" className="">
               Pricing
             </Link>
           </li>
           <li className="mx-5 text-neutral-400">&bull;</li>
-          <li className="ml-5 text-neutral-400">
+          <li className="ml-5 text-neutral-400 hover:underline">
             <Link to="/login" className="">
               Login
             </Link>
