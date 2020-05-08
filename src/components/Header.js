@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <header className="px-8 py-10 sm:flex sm:justify-between">
       <div className="flex justify-between">
-        <div>
+        <Link to="/">
           <img className="h-6 sm:h-8" src={logo} alt="Logo" />
-        </div>
+        </Link>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
