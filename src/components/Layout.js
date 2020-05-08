@@ -1,5 +1,6 @@
 import React from "react"
 import SEO from "./SEO"
+import Header from "./Header"
 
 const Layout = ({ children }) => {
   return (
@@ -13,7 +14,10 @@ const Layout = ({ children }) => {
           zIndex: "-1",
         }}
       ></div>
-      <div className="container mx-auto h-screen">{children}</div>
+      <div className="container mx-auto h-screen">
+        <Header />
+        {children}
+      </div>
     </>
   )
 }
