@@ -8,7 +8,7 @@ export default () => {
       <main className="sm:mt-16 sm:flex sm:flex-row-reverse">
         <div className="sm:w-1/2">
           <img
-            className="ml-2 h-64 object-cover object-left max-w-none sm:h-50 md-70"
+            className="ml-2 h-64 object-cover object-left max-w-none sm:h-50 md:h-70 lg:h-full"
             src={devicesImage}
             alt="mobile and desktop devices"
           />
@@ -30,13 +30,13 @@ export default () => {
           <div className="mt-6 sm:mt-16">
             <button
               type="button"
-              className="px-6 py-2 border bg-primary hover:bg-light text-white font-condensed text-base font-semibold rounded uppercase sm:px-10 sm:py-3"
+              className="px-6 py-2 border bg-primary hover:bg-light text-white font-condensed text-base font-semibold rounded uppercase lg:px-10 lg:py-3"
             >
               Schedule a demo
             </button>
             <button
               type="button"
-              className="ml-5 text-neutral-400 font-condensed uppercase text-sm tracking-wide sm:ml-8 sm:tracking-widest"
+              className="ml-5 text-neutral-400 font-condensed uppercase text-sm tracking-wide sm:ml-2 md:tracking-widest lg:ml-8"
             >
               To see a preview
             </button>
