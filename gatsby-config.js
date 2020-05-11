@@ -28,5 +28,20 @@ module.exports = {
         postCssPlugins: [require("tailwindcss"), require("autoprefixer")],
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Barlow`,
+            variants: ["400", "600", "700"],
+          },
+          {
+            family: `Barlow Condensed`,
+            variants: ["400", "600", "700"],
+          },
+        ],
+      },
+    },
   ],
 }
