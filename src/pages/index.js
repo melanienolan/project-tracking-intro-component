@@ -20,7 +20,7 @@ export default () => {
             </span>{" "}
             Monograph Dashboard
           </p>
-          <h1 className="mt-4 font-condensed font-bold text-neutral-300 text-h1 leading-none uppercase text-4xxl max-w-xs sm:max-w-none sm:text-6xl">
+          <h1 className="mt-4 font-condensed font-bold text-neutral-300 leading-none uppercase text-4xxl max-w-xs sm:max-w-none sm:text-6xl">
             Powerful Insights into your Team
           </h1>
           <p className="mt-3 font-barlow text-lg text-neutral-400 sm:mt-8">
