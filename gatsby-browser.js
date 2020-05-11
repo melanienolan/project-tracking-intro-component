@@ -1,3 +1,7 @@
-import "typeface-barlow"
-import "typeface-barlow-condensed"
-import "./src/css/tailwind.css"
+require("./src/css/tailwind.css")
+
+exports.onClientEntry = () => {
+  window.addEventListener("load", () => {
+    document.body.className = document.body.className.replace(/\bno-js\b/, "")
+  })
+}
