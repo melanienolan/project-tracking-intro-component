@@ -6,8 +6,8 @@ This project is based on a challenge by [Frontend Mentor](https://www.frontendme
 
 On mobile:
 
-![Mobile](./images/design/mobile-design.jpg)
+![Mobile](./src/images/design/mobile-design.jpg)
 
 On desktop:
 
-![Desktop](./images/design/desktop-design.jpg)
+![Desktop](./src/images/design/desktop-design.jpg)
